@@ -1,7 +1,6 @@
-name: Upload to TestPypi
+name: Upload to Pypi
 
 on:
-  workflow_dispatch:
   release:
     types: [published]
 
@@ -20,5 +19,4 @@ jobs:
       - uses: pypa/gh-action-pypi-publish@release/v1.4
         with:
           user: __token__
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
-          repository_url: https://test.pypi.org/legacy/
+          password: ${{ secrets.PYPI_API_TOKEN }}
