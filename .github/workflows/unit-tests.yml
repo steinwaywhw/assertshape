@@ -2,7 +2,7 @@ name: Unit Tests
 
 on: 
   workflow_dispatch:
-  pull_requests:
+  pull_request:
   push:
 
 jobs:
