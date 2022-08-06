@@ -1,5 +1,8 @@
 # assertshape
 
+https://github.com/steinwaywhw/assertshape/actions/workflows/unit-tests.yml/badge.svg
+
+
 Python library for asserting n-dim array shapes using Einstein notations.
 
 Examples: 
